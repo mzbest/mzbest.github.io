@@ -2,42 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://mzbest.github.io/posts/my-fourth-post/</loc>
+    <lastmod>2024-10-22T17:13:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mzbest.github.io/</loc>
+    <lastmod>2024-10-22T17:13:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mzbest.github.io/posts/</loc>
+    <lastmod>2024-10-22T17:13:00+08:00</lastmod>
+  </url><url>
+    <loc>https://mzbest.github.io/categories/</loc>
     <lastmod>2024-10-22T16:16:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/category-b/</loc>
+    <loc>https://mzbest.github.io/categories/category-b/</loc>
     <lastmod>2024-10-22T16:16:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/category-c/</loc>
+    <loc>https://mzbest.github.io/categories/category-c/</loc>
     <lastmod>2024-10-22T16:16:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://mzbest.github.io/posts/my-third-post/</loc>
     <lastmod>2024-10-22T16:16:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-third-post/</loc>
+    <loc>https://mzbest.github.io/tags/tag-b/</loc>
     <lastmod>2024-10-22T16:16:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://mzbest.github.io/tags/</loc>
     <lastmod>2024-10-22T16:16:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tag-b/</loc>
-    <lastmod>2024-10-22T16:16:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-22T16:16:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/my-second-post/</loc>
+    <loc>https://mzbest.github.io/posts/my-second-post/</loc>
     <lastmod>2024-10-22T16:14:53+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/category-a/</loc>
+    <loc>https://mzbest.github.io/categories/category-a/</loc>
     <lastmod>2024-10-22T15:47:32+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://mzbest.github.io/posts/my-first-post/</loc>
     <lastmod>2024-10-22T15:47:32+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tag-a/</loc>
+    <loc>https://mzbest.github.io/tags/tag-a/</loc>
     <lastmod>2024-10-22T15:47:32+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://mzbest.github.io/series/</loc>
   </url>
 </urlset>
