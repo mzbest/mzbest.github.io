@@ -2,3 +2,23 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  category = "categories"
+
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Tags'
+    pageRef = '/tags'
+    weight = 40
+  [[menus.main]]
+    name = 'Categories'
+    pageRef = '/categories'
+    weight = 50
