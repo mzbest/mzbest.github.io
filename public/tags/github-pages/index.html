@@ -130,7 +130,7 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Hugo Github Pages Getting Started With Hugo https://youtu.be/hjD9jTi_DQ4?si=e_MkDyK4bCq905sk
+    <p>Getting Started With Hugo https://youtu.be/hjD9jTi_DQ4?si=e_MkDyK4bCq905sk
 Hugo 是一个静态页面生成器，类似于Jekyll，但略有不同。
 gethugo.io 获得 Hugo
 静态网站：快速；易用性。
@@ -145,10 +145,11 @@ hugo new site hugo-demo -f yml # 好像-f yml 参数在这里是没有用的，�
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1 #虽然能用，但是不建议这样做，是因为会在git的时候，发生一些问题。可以用hugo网页quick start中的方法。下面请看： hugo new site quickstart cd quickstart git init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke # 将主题模块作为了git子模块，这样在后面提交到github的时候少了两个git模块之间的冲突。 echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml hugo server 然后就会在hugo-demo/theme/文件夹下面出现PaperMod主题文件，没有下载之前，theme文件夹下面是空的。
 在vscode中编辑hugo-demo的配置文件：
 hugo.toml
+baseURL = &#39;&#39; languageCode = &#39;en-us&#39; title = &#39;Demo for Hugo&#39; theme = &#34;PaperMod&#34; # 单引号或者双引号都是可以的，但是如果是不加引号，就会在执行 hugo serve 命令的时候报错，显示无法load 配置文件 修改完毕后执行
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2024-10-22 15:47:32 +0800 CST'>October 22, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to Hugo Github Pages" href="http://localhost:1313/posts/my-first-post/"></a>
+  <a class="entry-link" aria-label="post link to Hugo Github Pages" href="http://localhost:1313/posts/hugo-github-pages/"></a>
 </article>
     </main>
     

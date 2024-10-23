@@ -10,11 +10,10 @@
     <atom:link href="http://localhost:1313/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Github Pages</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/hugo-github-pages/</link>
       <pubDate>Tue, 22 Oct 2024 15:47:32 +0800</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h1 id=&#34;hugo-github-pages&#34;&gt;Hugo Github Pages&lt;/h1&gt;
-&lt;h2 id=&#34;getting-started-with-hugo&#34;&gt;Getting Started With Hugo&lt;/h2&gt;
+      <guid>http://localhost:1313/posts/hugo-github-pages/</guid>
+      <description>&lt;h2 id=&#34;getting-started-with-hugo&#34;&gt;Getting Started With Hugo&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://youtu.be/hjD9jTi_DQ4?si=e_MkDyK4bCq905sk&#34;&gt;https://youtu.be/hjD9jTi_DQ4?si=e_MkDyK4bCq905sk&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hugo 是一个静态页面生成器，类似于Jekyll，但略有不同。&lt;/p&gt;
 &lt;p&gt;gethugo.io  获得 Hugo&lt;/p&gt;
@@ -47,7 +46,12 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后就会在hugo-demo/theme/文件夹下面出现PaperMod主题文件，没有下载之前，theme文件夹下面是空的。&lt;/p&gt;
 &lt;p&gt;在vscode中编辑hugo-demo的配置文件：&lt;/p&gt;
-&lt;p&gt;hugo.toml&lt;/p&gt;</description>
+&lt;p&gt;hugo.toml&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseURL&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageCode&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en-us&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Demo for Hugo&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PaperMod&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# 单引号或者双引号都是可以的，但是如果是不加引号，就会在执行 hugo serve 命令的时候报错，显示无法load 配置文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;修改完毕后执行&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

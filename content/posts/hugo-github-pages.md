@@ -1,7 +1,7 @@
 +++
 date = '2024-10-22T15:47:32+08:00'
 draft = false
-title = 'Hugo Github Pages'
+title = '我的关于 Hugo GithubPages 笔记'
 categories = ['tech']
 tags = ['Hugo', 'Github Pages']
 +++
