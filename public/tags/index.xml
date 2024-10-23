@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on My New Hugo Site</title>
-    <link>https://mzbest.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Oct 2024 16:16:36 +0800</lastBuildDate>
-    <atom:link href="https://mzbest.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag B</title>
-      <link>https://mzbest.github.io/tags/tag-b/</link>
+      <link>http://localhost:1313/tags/tag-b/</link>
       <pubDate>Tue, 22 Oct 2024 16:16:36 +0800</pubDate>
-      <guid>https://mzbest.github.io/tags/tag-b/</guid>
+      <guid>http://localhost:1313/tags/tag-b/</guid>
       <description></description>
     </item>
     <item>
-      <title>Tag A</title>
-      <link>https://mzbest.github.io/tags/tag-a/</link>
+      <title>Github Pages</title>
+      <link>http://localhost:1313/tags/github-pages/</link>
       <pubDate>Tue, 22 Oct 2024 15:47:32 +0800</pubDate>
-      <guid>https://mzbest.github.io/tags/tag-a/</guid>
+      <guid>http://localhost:1313/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
+      <pubDate>Tue, 22 Oct 2024 15:47:32 +0800</pubDate>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
     </item>
   </channel>
