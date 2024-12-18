@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>408计算机考研攻略 on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/408%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%80%83%E7%A0%94%E6%94%BB%E7%95%A5/</link>
+    <description>Recent content in 408计算机考研攻略 on My New Hugo Site</description>
     <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 18 Dec 2024 15:00:44 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/408%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%80%83%E7%A0%94%E6%94%BB%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>408备考全攻略</title>
       <link>http://localhost:1313/posts/408%E5%A4%87%E8%80%83%E5%85%A8%E6%94%BB%E7%95%A5/</link>
@@ -104,58 +104,6 @@
 &lt;h2 id=&#34;四备考经验总结&#34;&gt;四、备考经验总结&lt;/h2&gt;
 &lt;h3 id=&#34;一错题整理至关重要&#34;&gt;（一）错题整理至关重要&lt;/h3&gt;
 &lt;p&gt;在备考过程中，错题整理是一个关键环节。将错题和解析截图下来放在一个word上，整理好了统一打印，或者在错题设计的知识点旁边进行标注。通过错题整理，可以明确自己的薄弱环节，有针对性地进行复习。例如，在计组存储大题中总是出错，就可以针对这个知识点进行重点突破，重新学习相关内容，直到完全掌握为止。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>关于我</title>
-      <link>http://localhost:1313/posts/about/</link>
-      <pubDate>Wed, 23 Oct 2024 17:09:44 +0800</pubDate>
-      <guid>http://localhost:1313/posts/about/</guid>
-      <description>&lt;h1 id=&#34;未完&#34;&gt;未完……&lt;/h1&gt;</description>
-    </item>
-    <item>
-      <title>我的关于 Hugo GithubPages 笔记</title>
-      <link>http://localhost:1313/posts/hugo-github-pages/</link>
-      <pubDate>Tue, 22 Oct 2024 15:47:32 +0800</pubDate>
-      <guid>http://localhost:1313/posts/hugo-github-pages/</guid>
-      <description>&lt;h2 id=&#34;getting-started-with-hugo&#34;&gt;Getting Started With Hugo&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://youtu.be/hjD9jTi_DQ4?si=e_MkDyK4bCq905sk&#34;&gt;https://youtu.be/hjD9jTi_DQ4?si=e_MkDyK4bCq905sk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hugo 是一个静态页面生成器，类似于Jekyll，但略有不同。&lt;/p&gt;
-&lt;p&gt;gethugo.io  获得 Hugo&lt;/p&gt;
-&lt;p&gt;静态网站：快速；易用性。&lt;/p&gt;
-&lt;p&gt;动态网站：需要链接数据库，后端，比较慢；同时也比较复杂。&lt;/p&gt;
-&lt;p&gt;安装Hugo&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;使用对应系统的Hugo包管理工具来安装&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安装Hugo&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;为了安装Hugo，需要安装Scoop&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# 以下代码可解决在admin状态下安装scoop失败的问题&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; iex  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;amp; {&lt;/span&gt;$(irm get.scoop.sh)&lt;span style=&#34;color:#e6db74&#34;&gt;} -RunAsAdmin &amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Hugo使用&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site hugo-demo -f yml &lt;span style=&#34;color:#75715e&#34;&gt;# 好像-f yml 参数在这里是没有用的，都会生成hugo.toml配置文件，虽然有些不适应，但也勉强能看懂。&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;会在shell打开位置建立一个新的静态网页文件&lt;/p&gt;
-&lt;p&gt;进入hugo-demo目录&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;#虽然能用，但是不建议这样做，是因为会在git的时候，发生一些问题。可以用hugo网页quick start中的方法。下面请看：&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site quickstart
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd quickstart
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke  &lt;span style=&#34;color:#75715e&#34;&gt;# 将主题模块作为了git子模块，这样在后面提交到github的时候少了两个git模块之间的冲突。&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; hugo.toml
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后就会在hugo-demo/theme/文件夹下面出现PaperMod主题文件，没有下载之前，theme文件夹下面是空的。&lt;/p&gt;
-&lt;p&gt;在vscode中编辑hugo-demo的配置文件：&lt;/p&gt;
-&lt;p&gt;hugo.toml&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseURL&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageCode&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;en-us&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Demo for Hugo&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;PaperMod&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;# 单引号或者双引号都是可以的，但是如果是不加引号，就会在执行 hugo serve 命令的时候报错，显示无法load 配置文件&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;修改完毕后执行&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
